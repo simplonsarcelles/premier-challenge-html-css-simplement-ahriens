@@ -36,12 +36,7 @@ a:hover {
 
 li {
 	list-style-type: none;
-}
-
-
-img {
-	height: 200px;
-	width: 175px;
+	text-align: center;
 }
 
 
@@ -126,6 +121,7 @@ ul{
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
+  padding: 0;
 }
 
 
