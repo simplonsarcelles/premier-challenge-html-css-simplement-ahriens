@@ -38,7 +38,6 @@ a:hover {
 
 li {
 	list-style-type: none;
-	text-align: center;
 }
 
 
@@ -137,7 +136,6 @@ td {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-
 
 
 
