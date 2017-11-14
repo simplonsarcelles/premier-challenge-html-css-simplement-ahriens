@@ -1,5 +1,5 @@
 body {
-	background: #D8BEE9;
+	background: #ECECEC;
 	font-family: 'Dosis', sans-serif;
 	font-size: 16px;
 	color: #71329B;
@@ -38,7 +38,93 @@ li {
 	list-style-type: none;
 }
 
+
 img {
 	height: 200px;
 	width: 175px;
 }
+
+
+.wrapper {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  width: 45%;
+  height: 45%;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+.child {
+  background: #E6D8E8;
+  padding: 5px;
+  width: 90%;
+  height: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   border-radius: 6px;
+  text-align: center;
+
+}
+ 
+
+
+
+
+tr{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 5%;
+
+
+
+}
+td {
+	 display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+
+.fa{
+
+	color: grey;
+}
+
