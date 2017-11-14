@@ -25,10 +25,15 @@ h3 {
 	font-style: italic;
 }
 
-li {
+a {
 	text-decoration: none;
 }
 
-li:hover {
-	
+a:hover {
+	color: #2F137B;
+	text-decoration: none; ;
+}
+
+li {
+	list-style-type: none;
 }
