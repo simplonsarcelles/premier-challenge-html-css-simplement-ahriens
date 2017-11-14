@@ -38,6 +38,7 @@ a:hover {
 
 li {
 	list-style-type: none;
+	text-align: center;
 }
 
 
@@ -137,6 +138,16 @@ td {
   justify-content: space-around;
 }
 
+<<<<<<< HEAD:06-profile-dashboard/style.css
+=======
+ul{
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+>>>>>>> f75e24dabf3d49655ece5b03e38ed4859e539beb:01-profile-content/style.css
 
 
 
