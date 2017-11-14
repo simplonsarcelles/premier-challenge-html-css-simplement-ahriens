@@ -1,5 +1,5 @@
 body {
-	background: #D8BEE9;
+	background: #ECECEC;
 	font-family: 'Dosis', sans-serif;
 	font-size: 16px;
 	color: #71329B;
@@ -81,10 +81,13 @@ li {
   height: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
-  
- 
+   border-radius: 6px;
   text-align: center;
+
 }
+ 
+
+
 
 
 tr{
