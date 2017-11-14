@@ -3,8 +3,6 @@ body {
 	font-family: 'Dosis', sans-serif;
 	font-size: 16px;
 	color: #71329B;
-	padding:0px;
-	margin: 0px;
 }
 
 h1 {
@@ -15,7 +13,7 @@ h1 {
 
 h2 {
 	font-family: 'Varela Round', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 caption {
@@ -38,17 +36,14 @@ a:hover {
 
 li {
 	list-style-type: none;
+	text-align: center;
 }
 
 
 .wrapper {
-  
+  padding: 0;
+  margin: 0;
   list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   
   -webkit-flex-flow: row wrap;
@@ -60,44 +55,18 @@ li {
   margin: 0;
   position: relative;
 
-  width: 40%;
+  width: 45%;
   height: 45%;
   list-style: none;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
 
-.sidebar {
-  padding: 0;
-  margin: 0;
-  position: fixed;
-  left: 0px;
-  width: 5%;
-  height: 100%;
-  
-  background-color: aliceblue;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: column;
-}
-
-
-
 
 .child {
-  background:aliceblue;
+  background: #E6D8E8;
   padding: 5px;
   width: 90%;
   height: 50%;
@@ -113,10 +82,6 @@ li {
 
 
 tr{
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   
   -webkit-flex-flow: row wrap;
@@ -127,31 +92,31 @@ tr{
 
 }
 td {
-	 display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
 
+ul{
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+}
 
 
 
 .fa{
 
 	color: grey;
-	text-align: center;
 }
 
 	.ahrie {
       width: 50%;
       height: 50%;
 }
-
-
 
 
 @media only screen and (max-width: 500px) {
@@ -166,13 +131,7 @@ td {
       width: 100%;
       height: 100%;
 }
-.sidebar {
 
-  display: none;
  
     }
-
-
-
-
 }
